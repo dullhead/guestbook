@@ -19,6 +19,12 @@
       <div><textarea name="content" rows="3" cols="60"></textarea></div>
       <div><input type="submit" value="Sign Guestbook"></div>
     </form>
+    <hr>
+
+    <form>Guestbook name:
+      <input value="{{ guestbook_name }}" name="guestbook_name">
+      <input id="btnSwitch" type="submit" value="switch">
+    </form>
 
     <a href="{{ url }}">{{ url_linktext }}</a>
 
