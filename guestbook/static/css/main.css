@@ -2,14 +2,3 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: cyan;
 }
-#btnSign{
-    text-align: center;
-    color: teal;
-    background-color: green;
-}
-#btnSwitch{
-    text-align: inherit;
-    font-size: large;
-    color:blueviolet;
-    background-color: green;
-}
