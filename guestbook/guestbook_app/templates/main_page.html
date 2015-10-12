@@ -10,7 +10,7 @@
         {{ greeting.author }} wrote:
       {% else %} An anonymous person wrote:
       {% endif %}
-      {{ greeting.content|escape }}
+      {{ greeting.content|escape }} at {{ greeting.date }}
     <br>
     {% endfor %}
     <a href="{% url 'sign' %}"><input type="button" value='Sign'/></a> </br>
